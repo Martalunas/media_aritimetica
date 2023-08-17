@@ -1,0 +1,14 @@
+Bm1= int(input("digite a nota do bimestre:"))
+Bm2= int(input("digite a nota do bimestre:"))
+Bm3= int(input("digite a nota do bimestre:"))
+Bm4= int(input("digite a nota do bimestre:"))
+media=Bm1+Bm2+Bm3+Bm4/4
+print("sua nota final é:",(media/4)) 
+if media >=9: 
+    print("aprovado com louvor")
+    
+elif media >=7:
+    print("aprovado")
+    
+elif media <=7:
+    print("reprovado")
